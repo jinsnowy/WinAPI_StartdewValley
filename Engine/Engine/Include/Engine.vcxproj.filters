@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{66b9701c-ad5d-4cb6-9d6d-d0fa29ad051b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{ca6cf9ee-094f-4892-8a43-9de64b9b9315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{e4a1fdb3-634c-44fa-abf5-0ba47b56eec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Layer">
+      <UniqueIdentifier>{d756f1b1-5e33-4f61-a4e0-19ecd764b843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types">
+      <UniqueIdentifier>{42ba16ef-635e-4d21-8c35-0de2a91093bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{5cacff0f-1ca1-4a67-94eb-a05e2ceb3f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\01. MoveObj">
+      <UniqueIdentifier>{013026b5-8b56-4631-88a4-2f794bb4e1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. StaticObj">
+      <UniqueIdentifier>{1e4bdc5a-a931-478e-aaf6-a41498e42789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{5cd27b56-32dd-4c51-bf95-6010308a62e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{00fb8c50-8de3-47a1-a4da-10d76cee27a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. StaticObj\01. Stage">
+      <UniqueIdentifier>{816b7ac5-6f28-4def-abf9-c64f10810444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\01. FrameTimer">
+      <UniqueIdentifier>{ae5db66a-679a-47d4-9619-e623c51773b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\02. Path">
+      <UniqueIdentifier>{35ba386b-d61e-4fa7-91bb-3fe804b915c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\03. Camera">
+      <UniqueIdentifier>{bc6471ab-7dc8-4c62-902f-7969080c43f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\04. Input">
+      <UniqueIdentifier>{74e5fb1c-c67e-41d5-913e-b10b28542967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collider">
+      <UniqueIdentifier>{4d929710-3db0-41fd-9b5c-7107e84f9083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\05. Math">
+      <UniqueIdentifier>{1e845c4d-dc37-4fb9-baff-df7ad257280c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{934b3c59-f4a6-4626-8e55-2c928c741513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\04. UI">
+      <UniqueIdentifier>{10da58ba-9575-40ec-85d4-504c55e6693b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{074a5fba-2e37-4bd1-a852-be30f4a0b839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="이미지 파일">
+      <UniqueIdentifier>{b3cb4ae2-1145-45e3-8a2b-c7a4c2168dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\05. Plant">
+      <UniqueIdentifier>{8c5088e5-8ba3-4bdc-9df5-4af2aa1346d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\06.Item">
+      <UniqueIdentifier>{d7eaa041-1c8e-41d1-bd2b-7b74d34c841a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{a8911367-f0f7-4ab7-831e-f175d55ca736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\04. UI\Base">
+      <UniqueIdentifier>{01266c24-da5a-4ad4-ba01-ed7e45e708d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\04. UI\Concrete">
+      <UniqueIdentifier>{b83906a5-7a43-4029-981a-c15125b799d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\05. Plant\TileObject">
+      <UniqueIdentifier>{04494a3a-2be1-4cfc-9f49-a637408fdbc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\05. Plant\Plant">
+      <UniqueIdentifier>{0f8210ed-7091-48e0-9b67-79e33eca63af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Window.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\App.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\UserException.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\WindowsMessageMap.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Vec2.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Rect.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Layer.h">
+      <Filter>Scene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Types.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Ref.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\ResourceManager.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Texture.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FrameTimer.h">
+      <Filter>Core\01. FrameTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\PathManager.h">
+      <Filter>Core\02. Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Camera.h">
+      <Filter>Core\03. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Input.h">
+      <Filter>Core\04. Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\Collider.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\ColliderRect.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\CollisionManager.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\ColliderSphere.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Circle.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Core\05. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\ColliderPixel.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\StartScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\ColliderPoint.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MapEditScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Tile.h">
+      <Filter>Object\02. StaticObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MoveObj\Player.h">
+      <Filter>Object\01. MoveObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MoveObj\MovableObject.h">
+      <Filter>Object\01. MoveObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\StaticObject.h">
+      <Filter>Object\02. StaticObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Stage.h">
+      <Filter>Object\02. StaticObj\01. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundManager.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\fmod.hpp">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Mouse.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\InHouseScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\PrototypeManager.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MoveObj\PlayerTool.h">
+      <Filter>Object\01. MoveObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\FarmScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Item.h">
+      <Filter>Object\06.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Tool.h">
+      <Filter>Object\06.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\PointObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\BoundEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MiddlewayScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PelicantownScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TownStoreScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Npc.h">
+      <Filter>Object\02. StaticObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\UI.h">
+      <Filter>Object\04. UI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\UIButton.h">
+      <Filter>Object\04. UI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\UIPanel.h">
+      <Filter>Object\04. UI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\UIScrollBar.h">
+      <Filter>Object\04. UI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\UISeedStore.h">
+      <Filter>Object\04. UI\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\UIGameTimer.h">
+      <Filter>Object\04. UI\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\UITileSelect.h">
+      <Filter>Object\04. UI\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\GameManager.h">
+      <Filter>Object\04. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Grass.h">
+      <Filter>Object\05. Plant\TileObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Rock.h">
+      <Filter>Object\05. Plant\TileObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Tree.h">
+      <Filter>Object\05. Plant\TileObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\TreeTrunk.h">
+      <Filter>Object\05. Plant\TileObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\InteractiveTile.h">
+      <Filter>Object\05. Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Parsnip.h">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Seed.h">
+      <Filter>Object\06.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Plant.h">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Cauliflower.h">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Radish.h">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Garlic.h">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Pepper.h">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\Tomato.h">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\BlueBerry.h">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\ShakeEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\Effect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\UIFastItemList.h">
+      <Filter>Object\04. UI\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\UIPlayerInfo.h">
+      <Filter>Object\04. UI\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StaticObj\CropCabinet.h">
+      <Filter>Object\02. StaticObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TempObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\VanishEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\CollisionSpace.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\SequentialEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\EffectInterface.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\ChaseEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\ChaseLongEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\fmod.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\CavernEntranceScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MoveObj\Monster.h">
+      <Filter>Object\01. MoveObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\CavernInScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="UnReleaseTest.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\Window.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\App.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\WindowsMessageMap.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\UserException.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Layer.cpp">
+      <Filter>Scene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Ref.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\ResourceManager.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Texture.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FrameTimer.cpp">
+      <Filter>Core\01. FrameTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\PathManager.cpp">
+      <Filter>Core\02. Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Camera.cpp">
+      <Filter>Core\03. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Input.cpp">
+      <Filter>Core\04. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\Collider.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\ColliderRect.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\CollisionManager.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\ColliderSphere.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Core\05. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\ColliderPixel.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\StartScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\ColliderPoint.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\MapEditScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Tile.cpp">
+      <Filter>Object\02. StaticObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MoveObj\Player.cpp">
+      <Filter>Object\01. MoveObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MoveObj\MovableObject.cpp">
+      <Filter>Object\01. MoveObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\StaticObject.cpp">
+      <Filter>Object\02. StaticObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Stage.cpp">
+      <Filter>Object\02. StaticObj\01. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundManager.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Mouse.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\InHouseScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\PrototypeManager.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MoveObj\PlayerTool.cpp">
+      <Filter>Object\01. MoveObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\FarmScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Item.cpp">
+      <Filter>Object\06.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Tool.cpp">
+      <Filter>Object\06.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\PointObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\BoundEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\MiddlewayScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PelicantownScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TownStoreScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Npc.cpp">
+      <Filter>Object\02. StaticObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\UI.cpp">
+      <Filter>Object\04. UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\UIButton.cpp">
+      <Filter>Object\04. UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\UIPanel.cpp">
+      <Filter>Object\04. UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\UIScrollBar.cpp">
+      <Filter>Object\04. UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\UISeedStore.cpp">
+      <Filter>Object\04. UI\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\UIGameTimer.cpp">
+      <Filter>Object\04. UI\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\UITileSelect.cpp">
+      <Filter>Object\04. UI\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\GameManager.cpp">
+      <Filter>Object\04. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Grass.cpp">
+      <Filter>Object\05. Plant\TileObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Rock.cpp">
+      <Filter>Object\05. Plant\TileObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Tree.cpp">
+      <Filter>Object\05. Plant\TileObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\TreeTrunk.cpp">
+      <Filter>Object\05. Plant\TileObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\InteractiveTile.cpp">
+      <Filter>Object\05. Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Parsnip.cpp">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Seed.cpp">
+      <Filter>Object\06.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Plant.cpp">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Cauliflower.cpp">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Radish.cpp">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Garlic.cpp">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Pepper.cpp">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\Tomato.cpp">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\BlueBerry.cpp">
+      <Filter>Object\05. Plant\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\ShakeEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\Effect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\UIFastItemList.cpp">
+      <Filter>Object\04. UI\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\UIPlayerInfo.cpp">
+      <Filter>Object\04. UI\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StaticObj\CropCabinet.cpp">
+      <Filter>Object\02. StaticObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TempObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\VanishEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\CollisionSpace.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\SequentialEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\EffectInterface.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\ChaseEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\ChaseLongEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\CavernEntranceScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MoveObj\Monster.cpp">
+      <Filter>Object\01. MoveObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\CavernInScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="UnReleaseTest.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Engine.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Bin\Texture\BackBuffer.bmp">
+      <Filter>이미지 파일</Filter>
+    </Image>
+    <Image Include="..\Bin\Texture\bullet.bmp">
+      <Filter>이미지 파일</Filter>
+    </Image>
+    <Image Include="..\Bin\Texture\hos.bmp">
+      <Filter>이미지 파일</Filter>
+    </Image>
+    <Image Include="..\Bin\Texture\Stage1.bmp">
+      <Filter>이미지 파일</Filter>
+    </Image>
+    <Image Include="..\Bin\Texture\Stage1.jpg">
+      <Filter>이미지 파일</Filter>
+    </Image>
+    <Image Include="..\Bin\Texture\Stage2.bmp">
+      <Filter>이미지 파일</Filter>
+    </Image>
+    <Image Include="..\Bin\Texture\Stage2.jpg">
+      <Filter>이미지 파일</Filter>
+    </Image>
+    <Image Include="..\Bin\Texture\minion.bmp">
+      <Filter>이미지 파일</Filter>
+    </Image>
+    <Image Include="..\Bin\Texture\MaskStage2.bmp">
+      <Filter>이미지 파일</Filter>
+    </Image>
+    <Image Include="..\Bin\Texture\Player\Spritesheet.png">
+      <Filter>이미지 파일</Filter>
+    </Image>
+    <Image Include="..\Bin\Texture\StardewValley_TitleScreen_SpriteSheet.bmp">
+      <Filter>이미지 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Bin\Texture\Player\readme.txt">
+      <Filter>이미지 파일</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
